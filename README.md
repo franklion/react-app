@@ -5,3 +5,13 @@ Learn the fundamentals of React, including simple and class components, state, p
 # Demo
 
 - https://franklion.github.io/react-app/
+
+# local test
+
+- npm start
+
+# ready to deploy
+
+- npm run build
+
+- npm run deploy
