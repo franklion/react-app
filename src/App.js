@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Table from './Table'
 import Form from './Form'
+import RenderPropsPattern from './renderPropsPattern/Index'
 
 class App extends Component {
   state = {
-    characters: []
+    characters: [],
   }
 
   removeCharacter = index => {
@@ -31,6 +32,8 @@ class App extends Component {
                removeCharacter={this.removeCharacter}
         />
         <Form handleSubmit={this.handleSubmit} />
+        <hr/>
+        <RenderPropsPattern />
       </div>
     )
   }
