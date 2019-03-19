@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Table from './Table'
 import Form from './Form'
 import RenderPropsPattern from './renderPropsPattern/Index'
+import HigherOrderCmpPattern from './higherOrderCmpPattern/Index'
 
 class App extends Component {
   state = {
@@ -33,7 +34,13 @@ class App extends Component {
         />
         <Form handleSubmit={this.handleSubmit} />
         <hr/>
+        
+        <h1>Render Props Design Pattern</h1>
         <RenderPropsPattern />
+        <hr/>
+
+        <h1>High Order Components Design Pattern</h1>
+        <HigherOrderCmpPattern />
       </div>
     )
   }
